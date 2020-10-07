@@ -2,7 +2,7 @@
 
 @section('content')
 
-<header class="masthead"  src="{{asset('images/background.png')}}" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">
+<header class="masthead"  style="background-image:url('{{asset('images/background.png')}}');" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">
     <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
             <div class="row">
