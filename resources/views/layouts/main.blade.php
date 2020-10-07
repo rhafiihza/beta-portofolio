@@ -8,9 +8,11 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="{{asset('images/logo.png')}}" />
+    
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="{{asset('vendor/lightbox/dist/ekko-lightbox.css')}}">
 
     <!-- Main CSS -->
     <!-- Fontawesome --> 
@@ -69,23 +71,23 @@
             <div class="col-4 text-left">
             <ul style="list-style-type: none;">
                 <li>
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="www.linkedin.com/in/rhafiihza" class="badge badge-primary">LinkedIn</a>
+                    <i class="fa fa-linkedin-square mr-3 mt-3" aria-hidden="true"></i><a href="www.linkedin.com/in/rhafiihza" class="badge badge-primary">LinkedIn</a>
                 </li>
                 <li>
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i><span class="badge badge-primary">rhafiihzaraja@gmail.com</span>
+                    <i class="fa fa-envelope-o mr-3 mt-3" aria-hidden="true"></i><span class="badge badge-primary">rhafiihzaraja@gmail.com</span>
                 </li>
             </ul>
             </div>    
-            <div class="col-4 text-center">
-                © 2019 rhafiihza        
+            <div class="col-4 text-center h2">
+                © 2020 rhafiihza        
             </div>
             <div class="col-4 text-right">
                 <ul style="list-style-type: none;">
                     <li>
-                    <a href="https://twitter.com/rhafiihza" class="badge badge-primary">Twitter</a><i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <a href="https://twitter.com/rhafiihza" class="badge badge-primary mr-3 mt-3">Twitter</a><i class="fa fa-twitter-square" aria-hidden="true"></i>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/rhafiihza/" class="badge badge-primary">Instagram</a><i class="fa fa-instagram" aria-hidden="true"></i>
+                        <a href="https://www.instagram.com/rhafiihza/" class="badge badge-primary mr-3 mt-3">Instagram</a><i class="fa fa-instagram" aria-hidden="true"></i>
                     </li>
                 </ul>
             </div>
@@ -98,7 +100,6 @@
 
         <!-- ScrollReveal Helper -->
         <script src="{{asset('js/helpers/scrollreveal/anijs-helper-scrollreveal-min.js')}}"></script>
-        <script src=""></script>
         
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
