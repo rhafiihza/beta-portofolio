@@ -71,10 +71,10 @@
             <div class="col-4 text-left">
             <ul style="list-style-type: none;">
                 <li>
-                    <i class="fa fa-linkedin-square mr-3 mt-3" aria-hidden="true"></i><a href="www.linkedin.com/in/rhafiihza" class="badge badge-primary">LinkedIn</a>
+                    <i class="fa fa-linkedin-square fa-lg mr-3 mt-3" aria-hidden="true"></i><a href="www.linkedin.com/in/rhafiihza" class="badge badge-primary">LinkedIn</a>
                 </li>
                 <li>
-                    <i class="fa fa-envelope-o mr-3 mt-3" aria-hidden="true"></i><span class="badge badge-primary">rhafiihzaraja@gmail.com</span>
+                    <i class="fa fa-envelope-o fa-lg mr-3 mt-3" aria-hidden="true"></i><span class="badge badge-primary">rhafiihzaraja@gmail.com</span>
                 </li>
             </ul>
             </div>    
@@ -84,10 +84,10 @@
             <div class="col-4 text-right">
                 <ul style="list-style-type: none;">
                     <li>
-                    <a href="https://twitter.com/rhafiihza" class="badge badge-primary mr-3 mt-3">Twitter</a><i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    <a href="https://twitter.com/rhafiihza" class="badge badge-primary mr-3 mt-3">Twitter</a><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/rhafiihza/" class="badge badge-primary mr-3 mt-3">Instagram</a><i class="fa fa-instagram" aria-hidden="true"></i>
+                        <a href="https://www.instagram.com/rhafiihza/" class="badge badge-primary mr-3 mt-3">Instagram</a><i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
                     </li>
                 </ul>
             </div>
