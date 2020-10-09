@@ -40,7 +40,7 @@
     height: 50%;
     width: 10%;
     text-align: center;
-    display: table-cell;
+    display: contents;
     vertical-align: middle;
 }
 
@@ -59,7 +59,8 @@
 .gauge-container{
     display: inline-block;
     position: relative;
-    width: 70%;
+    width: 40%;
+    margin-left: 7.5rem;
 }
 
 .gauge-container .gauge{
@@ -86,7 +87,7 @@
 }
 
 .gauge-container .center.percentage{
-    font-size: 2vw;
+    font-size: 10vw;
 }
 
 .gauge-container .center.percentSymbol{
@@ -129,6 +130,31 @@ span.value{
 
 
 
+  .skills-title{
+      margin-top: 4rem;
+  }
+
+
+  // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+    .container-custom{
+        display: table-cell;
+    }
+
+    .gauge-container .center.percentage{
+        font-size: 2vw;
+    }
+
+    .gauge-container{
+        width: 70%;
+        margin-left: 0rem;
+    }
+
+    .skills-title{
+        margin-top: 0rem;
+    }
+}
 
 // .flex-wrapper {
 //     display: flex;

@@ -23,7 +23,7 @@
 <section class="container" id="works" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">
     <h1 class="text-center mt-5">Works</h1>
     <hr class="w-25">
-    <div class="row">
+    <div class="row col-12">
     <div class="card-columns">
         <div class="card">
             <img src="{{asset('images/reachtoforgive.png')}}" class="card-img" alt="...">
@@ -34,7 +34,7 @@
         <div class="card">
             <img src="{{asset('images/t-shirt.png')}}" class="card-img" alt="...">
             <div class="card-img-overlay">
-                <h3 class="card-title"><a href="#" class="btn btn-lg btn-outline-primary">Design T-Shirt</a></h3>
+                <h3 class="card-title"><a href="#" class="btn btn-lg btn-outline-primary">Design</a></h3>
             </div>
         </div>
         <div class="card">
@@ -54,12 +54,12 @@
 <!-- /.Works -->
 
 <!-- SKILLS -->
-<section class="container mb-5" id="skills" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">
+<section class="container mb-5 col" id="skills" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">
     <h1 id="section3" class="text-center mt-5">SKILLS</h1>
     <hr class="w-25">
     <!-- CIRCLE 1 -->
-    <div class="container-custom">
-        <h3 class="text-center">PHP NATIVE</h3>
+    <div class="container-custom col-12">
+        <h3 class="text-center skills-title">PHP NATIVE</h3>
         <div class="gauge-container">
             <svg class="gauge" viewBox="0 0 150 150">
             <circle class="rail" r="67" cx="75" cy="75"></circle>
@@ -75,7 +75,7 @@
     </div>
     <!-- CIRCLE 2 -->
     <div class="container-custom">
-        <h3 class="text-center">CODEIGNITER</h3>
+        <h3 class="text-center skills-title">CODEIGNITER</h3>
         <div class="gauge-container">
             <svg class="gauge" viewBox="0 0 150 150">
             <circle class="rail" r="67" cx="75" cy="75"></circle>
@@ -91,7 +91,7 @@
     </div>
     <!-- CIRCLE 3 -->
     <div class="container-custom">
-        <h3 class="text-center">LARAVEL</h3>
+        <h3 class="text-center skills-title">LARAVEL</h3>
         <div class="gauge-container">
             <svg class="gauge" viewBox="0 0 150 150">
             <circle class="rail" r="67" cx="75" cy="75"></circle>
@@ -107,7 +107,7 @@
     </div>
     <!-- CIRCLE 4 -->
     <div class="container-custom">
-        <h3 class="text-center">PHOTOSHOP</h3>
+        <h3 class="text-center skills-title">PHOTOSHOP</h3>
         <div class="gauge-container">
             <svg class="gauge" viewBox="0 0 150 150">
             <circle class="rail" r="67" cx="75" cy="75"></circle>
@@ -123,7 +123,7 @@
     </div>
     <!-- CIRCLE 5 -->
     <div class="container-custom">
-        <h3 class="text-center">ILLUSTRATOR</h3>
+        <h3 class="text-center skills-title">ILLUSTRATOR</h3>
         <div class="gauge-container">
             <svg class="gauge" viewBox="0 0 150 150">
             <circle class="rail" r="67" cx="75" cy="75"></circle>

@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
 
     <!-- AniCollection.css library -->
-    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+    <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
 
     <title>Rhafi Personal Web</title>
 
@@ -71,7 +71,7 @@
             <div class="col-4 text-left">
             <ul style="list-style-type: none;">
                 <li>
-                    <i class="fa fa-linkedin-square fa-lg mr-3 mt-3" aria-hidden="true"></i><a href="www.linkedin.com/in/rhafiihza" class="badge badge-primary">LinkedIn</a>
+                    <i class="fa fa-linkedin-square fa-lg mr-3 mt-3" aria-hidden="true"></i><a href="https://www.linkedin.com/in/rhafiihza" class="badge badge-primary">LinkedIn</a>
                 </li>
                 <li>
                     <i class="fa fa-envelope-o fa-lg mr-3 mt-3" aria-hidden="true"></i><span class="badge badge-primary">rhafiihzaraja@gmail.com</span>

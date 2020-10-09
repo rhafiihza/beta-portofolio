@@ -17006,46 +17006,102 @@ body {
     background-color: #000;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    min-height: 500px
 }
 
 .jumbotron {
     background: transparent
 }
 
-@media (min-width: 576px) {
-    .masthead {
-        height: 50vh;
-        min-height: 500px
-    }
+.img-thumbnail {
+    margin-left: -6rem;
+    margin-top: 7rem;
+    width: 70%
+}
 
+.display-4 {
+    width: 11rem;
+    margin-left: -3.8rem;
+    margin-top: 5rem
+}
+
+.lead {
+    color: #2e3092;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    width: 11rem;
+    font-size: 1rem;
+    margin-top: -2.5rem;
+    margin-left: -4rem;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7) !important
+}
+
+@media (min-width: 576px) {
     .img-thumbnail {
         margin-top: 5rem;
-        margin-left: -3rem;
-        width: 40%
+        margin-left: -7rem;
+        width: 60%
+    }
+
+    .display-4 {
+        margin-left: -1.5rem
+    }
+
+    .lead {
+        width: 14rem;
+        margin-left: -3rem
+    }
+}
+
+@media (min-width: 768px) {
+    .img-thumbnail {
+        margin-top: 4rem;
+        margin-left: -3.5rem;
+        width: 50%
+    }
+
+    .display-4 {
+        margin-left: 0rem
+    }
+
+    .lead {
+        width: 20rem;
+        margin-left: -5rem
     }
 }
 
 @media (min-width: 992px) {
     .masthead {
-        height: 100vh;
-        min-height: 500px
-    }
-
-    .display-4 {
-        text-shadow: 1px 1px 1px rgba(207, 192, 192, 0.5) !important;
-        padding-top: 5rem
-    }
-
-    .lead {
-        color: #2e3092;
-        font-family: 'Montserrat Alternates', sans-serif !important
+        height: 100vh
     }
 
     .img-thumbnail {
-        margin-top: 5rem;
+        margin-top: 4em;
+        margin-left: -5rem
+    }
+
+    .display-4 {
+        margin-left: 9rem
+    }
+
+    .lead {
+        margin-left: 4rem
+    }
+}
+
+@media (min-width: 1200px) {
+    .img-thumbnail {
+        margin-top: 3.5em;
         margin-left: -3rem;
-        width: 40%
+        width: 45%
+    }
+
+    .display-4 {
+        margin-left: 6rem
+    }
+
+    .lead {
+        margin-left: 1rem
     }
 }
 
@@ -17087,7 +17143,7 @@ body {
     height: 50%;
     width: 10%;
     text-align: center;
-    display: table-cell;
+    display: contents;
     vertical-align: middle
 }
 
@@ -17106,7 +17162,8 @@ body {
 .gauge-container {
     display: inline-block;
     position: relative;
-    width: 70%
+    width: 40%;
+    margin-left: 7.5rem
 }
 
 .gauge-container .gauge {
@@ -17133,7 +17190,7 @@ body {
 }
 
 .gauge-container .center.percentage {
-    font-size: 2vw
+    font-size: 10vw
 }
 
 .gauge-container .center.percentSymbol {
@@ -17182,4 +17239,27 @@ span.value {
 
 .note-display:nth-child(4) .circle__progress {
     stroke: #00AAFF
+}
+
+.skills-title {
+    margin-top: 4rem
+}
+
+@media (min-width: 576px) {
+    .container-custom {
+        display: table-cell
+    }
+
+    .gauge-container .center.percentage {
+        font-size: 2vw
+    }
+
+    .gauge-container {
+        width: 70%;
+        margin-left: 0rem
+    }
+
+    .skills-title {
+        margin-top: 0rem
+    }
 }
